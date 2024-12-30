@@ -1,0 +1,10 @@
+void mainMenu();
+void backMainMenu(int *choiceMainMenu);
+void menuBook();
+void display(struct book *sach, int n);
+void add(struct book *sach, int *n);
+void edit(struct book *sach, int n);
+void backMenuBook(int *choiceMenuBook);
+void sort(struct book *sach, int n);
+void loadFromFile(struct book *sach, int *n);
+void search(struct book *sach, int n);
